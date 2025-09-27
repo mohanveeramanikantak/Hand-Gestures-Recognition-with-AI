@@ -37,7 +37,7 @@ Real-time hand gesture detection interface
 
 Installation
 # Clone the repository
-git clone https://github.com/yourusername/Hand-Gestures-Recognition-with-AI.git
+git clone https://github.com/mohanveeramanikantak/Hand-Gestures-Recognition-with-AI.git
 
 # Navigate into the project directory
 cd Hand-Gestures-Recognition-with-AI
