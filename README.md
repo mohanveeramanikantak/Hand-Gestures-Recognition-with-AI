@@ -35,18 +35,21 @@ Real-time hand gesture detection interface
 
 4. NumPy – for numerical operations
 
-Installation
-# Clone the repository
+## Installation
+### Clone the repository
 git clone https://github.com/mohanveeramanikantak/Hand-Gestures-Recognition-with-AI.git
 
-# Navigate into the project directory
+### Navigate into the project directory
 cd Hand-Gestures-Recognition-with-AI
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run the application
-python main.py
+### Run the application
+1. python perprocess.py
+2. python train_model.py
+3. python predict.py
+
 
 ## Usage
 
