@@ -1,72 +1,107 @@
 # Hand Gestures Recognition with AI
 
-## Real-time Hand Gesture Recognition using AI, OpenCV, and TensorFlow
+## Overview
 
-- This project enables real-time hand gesture recognition for intuitive human-computer interaction. By leveraging computer vision and deep learning, the system can detect and interpret hand gestures, allowing seamless control of applications, devices, or virtual interfaces without physical input devices.
+**Hand Gestures Recognition with AI** is a real-time system that detects and interprets hand gestures using computer vision and deep learning. This project enables intuitive human-computer interaction, allowing users to control applications, devices, or virtual interfaces without physical input devices.
+
+By combining **OpenCV** for image processing and **TensorFlow/Keras** for deep learning, the system achieves accurate and responsive gesture recognition.
+
+---
 
 ## Features
 
-- Real-time Detection: Track and recognize hand gestures live using your webcam.
+* **Real-time Detection:** Track and recognize hand gestures live using your webcam.
+* **AI-Powered Recognition:** TensorFlow-based neural networks ensure high accuracy in gesture classification.
+* **Customizable Gestures:** Easily extendable to add new gestures or modify existing ones.
+* **Cross-Platform:** Compatible with Windows, Linux, and macOS.
+* **Interactive Applications:** Integrates seamlessly with games, presentations, and robotics projects.
 
-- AI-Powered Recognition: Uses TensorFlow-based neural networks for high accuracy.
-
-- Customizable Gestures: Easily extendable to recognize new gestures.
-
-- Cross-Platform: Works on Windows, Linux, and macOS.
-
-- Interactive Applications: Can be integrated into games, presentations, or robotics projects.
+---
 
 ## Screenshots
 
+**Real-time Hand Gesture Detection Interface:**
 ![1758177907917](https://github.com/user-attachments/assets/9d4064de-8e62-4fd9-8e22-6a213d70ab7a)
 
-Real-time hand gesture detection interface
-
+**Gesture Classification Output:**
 ![1758177907240](https://github.com/user-attachments/assets/da10bea5-f73c-4a17-9389-0153788decf1)
 
-### Gesture classification output
+---
+
 ## Technologies Used
 
-1. Python
+* **Python** – Core programming language
+* **OpenCV** – Image and video processing
+* **TensorFlow / Keras** – Deep learning model development
+* **NumPy** – Numerical operations
 
-2. OpenCV – for image and video processing
-
-3. TensorFlow / Keras – for building and training deep learning models
-
-4. NumPy – for numerical operations
+---
 
 ## Installation
-### Clone the repository
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/mohanveeramanikantak/Hand-Gestures-Recognition-with-AI.git
+```
 
-### Navigate into the project directory
+### 2. Navigate into the project directory
+
+```bash
 cd Hand-Gestures-Recognition-with-AI
+```
 
-### Install dependencies
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-### Run the application
-1. python perprocess.py
-2. python train_model.py
-3. python predict.py
+### 4. Run the application
 
+1. Preprocess the dataset:
+
+```bash
+python preprocess.py
+```
+
+2. Train the model:
+
+```bash
+python train_model.py
+```
+
+3. Start gesture recognition:
+
+```bash
+python predict.py
+```
+
+---
 
 ## Usage
 
-- Run the main Python script.
+1. Launch the main Python script (`predict.py`).
+2. Position your hand in front of the webcam.
+3. The system will detect and classify gestures in real-time.
+4. Add or modify gesture classes as needed to suit your application.
 
-- Position your hand in front of the camera.
+---
 
-- The system will detect and classify gestures in real-time.
+## Contributing
 
-- Extend or modify gesture classes as needed.
+Contributions are welcome! You can help by:
 
-- Contributing
+* Adding new gestures
+* Improving model accuracy
+* Enhancing UI/UX
+* Reporting bugs or suggesting features
 
-- Contributions are welcome! Feel free to open issues or submit pull requests for:
+Please feel free to open an issue or submit a pull request.
 
-- Adding new gestures
+---
 
-- Improving model accuracy
+## License
 
-- Enhancing UI/UX
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
