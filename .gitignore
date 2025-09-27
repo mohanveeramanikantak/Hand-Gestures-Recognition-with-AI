@@ -1,0 +1,69 @@
+# ==========================================
+# 🚀 FLASK (PYTHON) BACKEND IGNORE RULES 🚀
+# ==========================================
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask & TensorFlow related
+instance/
+*.sqlite3
+*.h5        # Ignore TensorFlow/Keras model files
+*.npy       # Ignore NumPy dataset files
+.DS_Store   # macOS system file
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+
+# ==========================================
+# ⚛️ REACT (NODE.JS) FRONTEND IGNORE RULES ⚛️
+# ==========================================
+
+# Node.js modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files
+build/
+dist/
+
+# Ignore generated service worker cache
+.cache/
+
+# Local environment settings
+.env.local
+.env.development
+.env.production
+
+# Ignore public files generated at runtime
+public/*.cache
+public/*.json
+public/*.txt
+
+# Ignore React editor settings
+.vscode/
+.idea/
+
+# ==========================================
+# 🔥 GENERAL GIT IGNORE RULES 🔥
+# ==========================================
+
+# Logs
+*.log
+*.out
+*.pid
+
+# System files
+.DS_Store
+Thumbs.db
